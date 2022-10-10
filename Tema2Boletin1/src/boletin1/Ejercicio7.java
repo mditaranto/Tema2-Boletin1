@@ -10,6 +10,7 @@ public class Ejercicio7 {
 		
 		Scanner sc = new Scanner(System.in);
 		
+		System.out.print("Introduzca un numero: ");
 		num = sc.nextInt();
 		
 		if (num<10) {
@@ -22,6 +23,8 @@ public class Ejercicio7 {
 			System.out.println("numero 4 cifras");
 		} else if (num<99999) {
 			System.out.println("numero 5 cifras");
+		} else {
+			System.out.println("El numero tiene mas de 5 cifras");
 		}
 		
 		sc.close();
