@@ -15,7 +15,7 @@ public class Ejercicio8 {
 		
 		//Mediante un condicional le asignamos un valor a la nota del usuario
 		if (nota<5) {
-			System.out.println("Suspensisimo");
+			System.out.println("Suspenso");
 		} else if (nota == 5) {
 			System.out.println("Suficiente");
 		} else if (nota == 6) {
